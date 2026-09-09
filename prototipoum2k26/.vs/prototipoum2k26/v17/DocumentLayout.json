@@ -3,8 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Familia Chavez Mejia\\OneDrive\\Documentos\\Capacitacion2\\Capacitacion2MVC\\prototipoum2k26\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7AEFAFA5-D34D-4D0F-9829-E90EA8BC45E1}|prototipoum2k26\\prototipoum2k26.csproj|c:\\users\\familia chavez mejia\\onedrive\\documentos\\capacitacion2\\capacitacion2mvc\\prototipoum2k26\\prototipoum2k26\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7AEFAFA5-D34D-4D0F-9829-E90EA8BC45E1}|prototipoum2k26\\prototipoum2k26.csproj|solutionrelative:prototipoum2k26\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1C7A2E36-C7AB-449B-B479-3EC0ED749601}|CapaModelo_prototipoumg2k26\\CapaModelo_prototipoumg2k26.csproj|c:\\users\\familia chavez mejia\\onedrive\\documentos\\capacitacion2\\capacitacion2mvc\\prototipoum2k26\\capamodelo_prototipoumg2k26\\repositorios\\repositoriocampeonato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C7A2E36-C7AB-449B-B479-3EC0ED749601}|CapaModelo_prototipoumg2k26\\CapaModelo_prototipoumg2k26.csproj|solutionrelative:capamodelo_prototipoumg2k26\\repositorios\\repositoriocampeonato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7A2E36-C7AB-449B-B479-3EC0ED749601}|CapaModelo_prototipoumg2k26\\CapaModelo_prototipoumg2k26.csproj|c:\\users\\familia chavez mejia\\onedrive\\documentos\\capacitacion2\\capacitacion2mvc\\prototipoum2k26\\capamodelo_prototipoumg2k26\\contratos\\irepositoriocampeonato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C7A2E36-C7AB-449B-B479-3EC0ED749601}|CapaModelo_prototipoumg2k26\\CapaModelo_prototipoumg2k26.csproj|solutionrelative:capamodelo_prototipoumg2k26\\contratos\\irepositoriocampeonato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7A2E36-C7AB-449B-B479-3EC0ED749601}|CapaModelo_prototipoumg2k26\\CapaModelo_prototipoumg2k26.csproj|c:\\users\\familia chavez mejia\\onedrive\\documentos\\capacitacion2\\capacitacion2mvc\\prototipoum2k26\\capamodelo_prototipoumg2k26\\entidades\\campeonato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C7A2E36-C7AB-449B-B479-3EC0ED749601}|CapaModelo_prototipoumg2k26\\CapaModelo_prototipoumg2k26.csproj|solutionrelative:capamodelo_prototipoumg2k26\\entidades\\campeonato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7A2E36-C7AB-449B-B479-3EC0ED749601}|CapaModelo_prototipoumg2k26\\CapaModelo_prototipoumg2k26.csproj|c:\\users\\familia chavez mejia\\onedrive\\documentos\\capacitacion2\\capacitacion2mvc\\prototipoum2k26\\capamodelo_prototipoumg2k26\\contratos\\irepositoriogenerico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C7A2E36-C7AB-449B-B479-3EC0ED749601}|CapaModelo_prototipoumg2k26\\CapaModelo_prototipoumg2k26.csproj|solutionrelative:capamodelo_prototipoumg2k26\\contratos\\irepositoriogenerico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7A2E36-C7AB-449B-B479-3EC0ED749601}|CapaModelo_prototipoumg2k26\\CapaModelo_prototipoumg2k26.csproj|c:\\users\\familia chavez mejia\\onedrive\\documentos\\capacitacion2\\capacitacion2mvc\\prototipoum2k26\\capamodelo_prototipoumg2k26\\repositorios\\repositoriomaestro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C7A2E36-C7AB-449B-B479-3EC0ED749601}|CapaModelo_prototipoumg2k26\\CapaModelo_prototipoumg2k26.csproj|solutionrelative:capamodelo_prototipoumg2k26\\repositorios\\repositoriomaestro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C7A2E36-C7AB-449B-B479-3EC0ED749601}|CapaModelo_prototipoumg2k26\\CapaModelo_prototipoumg2k26.csproj|c:\\users\\familia chavez mejia\\onedrive\\documentos\\capacitacion2\\capacitacion2mvc\\prototipoum2k26\\capamodelo_prototipoumg2k26\\repositorios\\repositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C7A2E36-C7AB-449B-B479-3EC0ED749601}|CapaModelo_prototipoumg2k26\\CapaModelo_prototipoumg2k26.csproj|solutionrelative:capamodelo_prototipoumg2k26\\repositorios\\repositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +39,79 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\Familia Chavez Mejia\\OneDrive\\Documentos\\Capacitacion2\\Capacitacion2MVC\\prototipoum2k26\\prototipoum2k26\\Class1.cs",
-              "RelativeDocumentMoniker": "prototipoum2k26\\Class1.cs",
-              "ToolTip": "C:\\Users\\Familia Chavez Mejia\\OneDrive\\Documentos\\Capacitacion2\\Capacitacion2MVC\\prototipoum2k26\\prototipoum2k26\\Class1.cs",
-              "RelativeToolTip": "prototipoum2k26\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "RepositorioCampeonato.cs",
+              "DocumentMoniker": "C:\\Users\\Familia Chavez Mejia\\OneDrive\\Documentos\\Capacitacion2\\Capacitacion2MVC\\prototipoum2k26\\CapaModelo_prototipoumg2k26\\Repositorios\\RepositorioCampeonato.cs",
+              "RelativeDocumentMoniker": "CapaModelo_prototipoumg2k26\\Repositorios\\RepositorioCampeonato.cs",
+              "ToolTip": "C:\\Users\\Familia Chavez Mejia\\OneDrive\\Documentos\\Capacitacion2\\Capacitacion2MVC\\prototipoum2k26\\CapaModelo_prototipoumg2k26\\Repositorios\\RepositorioCampeonato.cs",
+              "RelativeToolTip": "CapaModelo_prototipoumg2k26\\Repositorios\\RepositorioCampeonato.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAcwFIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-09T22:16:18.93Z",
+              "WhenOpened": "2026-09-09T22:58:40.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Campeonato.cs",
+              "DocumentMoniker": "C:\\Users\\Familia Chavez Mejia\\OneDrive\\Documentos\\Capacitacion2\\Capacitacion2MVC\\prototipoum2k26\\CapaModelo_prototipoumg2k26\\Entidades\\Campeonato.cs",
+              "RelativeDocumentMoniker": "CapaModelo_prototipoumg2k26\\Entidades\\Campeonato.cs",
+              "ToolTip": "C:\\Users\\Familia Chavez Mejia\\OneDrive\\Documentos\\Capacitacion2\\Capacitacion2MVC\\prototipoum2k26\\CapaModelo_prototipoumg2k26\\Entidades\\Campeonato.cs",
+              "RelativeToolTip": "CapaModelo_prototipoumg2k26\\Entidades\\Campeonato.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAYwA0AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-09T22:49:30.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IRepositorioCampeonato.cs",
+              "DocumentMoniker": "C:\\Users\\Familia Chavez Mejia\\OneDrive\\Documentos\\Capacitacion2\\Capacitacion2MVC\\prototipoum2k26\\CapaModelo_prototipoumg2k26\\Contratos\\IRepositorioCampeonato.cs",
+              "RelativeDocumentMoniker": "CapaModelo_prototipoumg2k26\\Contratos\\IRepositorioCampeonato.cs",
+              "ToolTip": "C:\\Users\\Familia Chavez Mejia\\OneDrive\\Documentos\\Capacitacion2\\Capacitacion2MVC\\prototipoum2k26\\CapaModelo_prototipoumg2k26\\Contratos\\IRepositorioCampeonato.cs",
+              "RelativeToolTip": "CapaModelo_prototipoumg2k26\\Contratos\\IRepositorioCampeonato.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-09T22:47:20.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IRepositorioGenerico.cs",
+              "DocumentMoniker": "C:\\Users\\Familia Chavez Mejia\\OneDrive\\Documentos\\Capacitacion2\\Capacitacion2MVC\\prototipoum2k26\\CapaModelo_prototipoumg2k26\\Contratos\\IRepositorioGenerico.cs",
+              "RelativeDocumentMoniker": "CapaModelo_prototipoumg2k26\\Contratos\\IRepositorioGenerico.cs",
+              "ToolTip": "C:\\Users\\Familia Chavez Mejia\\OneDrive\\Documentos\\Capacitacion2\\Capacitacion2MVC\\prototipoum2k26\\CapaModelo_prototipoumg2k26\\Contratos\\IRepositorioGenerico.cs",
+              "RelativeToolTip": "CapaModelo_prototipoumg2k26\\Contratos\\IRepositorioGenerico.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-09T22:45:22.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RepositorioMaestro.cs",
+              "DocumentMoniker": "C:\\Users\\Familia Chavez Mejia\\OneDrive\\Documentos\\Capacitacion2\\Capacitacion2MVC\\prototipoum2k26\\CapaModelo_prototipoumg2k26\\Repositorios\\RepositorioMaestro.cs",
+              "RelativeDocumentMoniker": "CapaModelo_prototipoumg2k26\\Repositorios\\RepositorioMaestro.cs",
+              "ToolTip": "C:\\Users\\Familia Chavez Mejia\\OneDrive\\Documentos\\Capacitacion2\\Capacitacion2MVC\\prototipoum2k26\\CapaModelo_prototipoumg2k26\\Repositorios\\RepositorioMaestro.cs",
+              "RelativeToolTip": "CapaModelo_prototipoumg2k26\\Repositorios\\RepositorioMaestro.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwCcAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-09T22:35:42.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Repositorio.cs",
+              "DocumentMoniker": "C:\\Users\\Familia Chavez Mejia\\OneDrive\\Documentos\\Capacitacion2\\Capacitacion2MVC\\prototipoum2k26\\CapaModelo_prototipoumg2k26\\Repositorios\\Repositorio.cs",
+              "RelativeDocumentMoniker": "CapaModelo_prototipoumg2k26\\Repositorios\\Repositorio.cs",
+              "ToolTip": "C:\\Users\\Familia Chavez Mejia\\OneDrive\\Documentos\\Capacitacion2\\Capacitacion2MVC\\prototipoum2k26\\CapaModelo_prototipoumg2k26\\Repositorios\\Repositorio.cs",
+              "RelativeToolTip": "CapaModelo_prototipoumg2k26\\Repositorios\\Repositorio.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-09T22:32:23.548Z",
               "EditorCaption": ""
             }
           ]
