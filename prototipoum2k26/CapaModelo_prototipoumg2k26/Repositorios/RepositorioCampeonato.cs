@@ -81,6 +81,8 @@ namespace CapaModelo_prototipoumg2k26.Repositorios
                 campeonato.IdTipoCampeonato_Campeonato = Convert.ToInt32(row[5]);
                 campeonato.IdEstado_Campeonato = Convert.ToInt32(row[6]);
 
+
+
             }
 
 
