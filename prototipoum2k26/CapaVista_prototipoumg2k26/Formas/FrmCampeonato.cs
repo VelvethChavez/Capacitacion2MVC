@@ -44,6 +44,8 @@ namespace CapaVista_prototipoumg2k26.Formas
 
         private void CargarDatos()
         {
+            comboI1.llenarCombo("tbl_campeonato", "IdCampeonato", "NombreCampeonato");
+
             cmbdeporte.DataSource =
                 campeonato.GetDeportes();
 
@@ -53,7 +55,7 @@ namespace CapaVista_prototipoumg2k26.Formas
             cmbdeporte.ValueMember =
                 "IdDeporte";
 
-            cmbdeporte.SelectedIndex = -1;
+            cmbdeporte.SelectedIndex = 1;
 
 
             cmbtipocampeonato.DataSource =
@@ -65,7 +67,7 @@ namespace CapaVista_prototipoumg2k26.Formas
             cmbtipocampeonato.ValueMember =
                 "IdTipoCampeonato";
 
-            cmbtipocampeonato.SelectedIndex = -1;
+            cmbtipocampeonato.SelectedIndex = 1;
 
 
             cmbestadocameponato.DataSource =
@@ -77,7 +79,7 @@ namespace CapaVista_prototipoumg2k26.Formas
             cmbestadocameponato.ValueMember =
                 "IdEstadoCampeonato";
 
-            cmbestadocameponato.SelectedIndex = -1;
+            cmbestadocameponato.SelectedIndex = 1;
         }
 
         private void ListaCampeonato()
