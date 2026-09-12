@@ -1,14 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CapaModelo_prototipoumg2k26.Entidades
 {
     public class Campeonato
     {
         public int IdCampeonato { get; set; }
+
         public string NombreCampeonato { get; set; }
 
         public DateTime FechaInicioCampeonato { get; set; }
@@ -17,9 +14,29 @@ namespace CapaModelo_prototipoumg2k26.Entidades
 
         public int IdDeporte_Campeonato { get; set; }
 
-        public int IdTipoCampeonato_Campeonato { get; set; }    
+        public int IdTipoCampeonato_Campeonato { get; set; }
 
         public int IdEstado_Campeonato { get; set; }
+    }
 
+    public class Deporte
+    {
+        public int IdDeporte { get; set; }
+
+        public string NombreDeporte { get; set; }
+    }
+
+    public class TipoCampeonato
+    {
+        public int IdTipoCampeonato { get; set; }
+
+        public string NombreTipoCampeonato { get; set; }
+    }
+
+    public class EstadoCampeonato
+    {
+        public int IdEstadoCampeonato { get; set; }
+
+        public string NombreEstadoCampeonato { get; set; }
     }
 }
