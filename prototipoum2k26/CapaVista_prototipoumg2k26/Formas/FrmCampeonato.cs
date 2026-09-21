@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 using CapaControlador_prototipoumg2k26;
+using CapaVista_prototipoumg2k26.Reportes;
 
 namespace CapaVista_prototipoumg2k26.Formas
 {
@@ -321,6 +322,18 @@ namespace CapaVista_prototipoumg2k26.Formas
                 MessageBox.Show(
                     "Debe seleccionar un registro");
             }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtnImprimir_Click(object sender, EventArgs e)
+        {
+          frmReporteCampeonato campeonato = new frmReporteCampeonato(); 
+            campeonato.Show();
+
         }
     }
 }

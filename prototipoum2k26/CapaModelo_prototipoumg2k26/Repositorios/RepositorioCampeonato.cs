@@ -26,13 +26,13 @@ namespace CapaModelo_prototipoumg2k26.Repositorios
                 "VALUES (Null, ?, ?, ?, ?, ?, ?)";
 
             update =
-                "UPDATE tbl_campeonato SET " +
+                "UPDATE Tbl_Campeonato SET " +
                 "NombreCampeonato = ?, " +
                 "FechaInicioCampeonato = ?, " +
                 "FechaFinCampeonato = ?, " +
                 "IdDeporte_Campeonato = ?, " +
                 "IdTipoCampeonato_Campeonato = ?, " +
-                "IdEstado_Campeonato = ? " +
+                "IdEstadoCampeonato_Campeonato = ? " + // <-- Nombre corregido según el script SQL
                 "WHERE IdCampeonato = ?";
 
             delete =

@@ -52,6 +52,7 @@
             this.btnBuscar = new System.Windows.Forms.Button();
             this.txtSearch = new System.Windows.Forms.TextBox();
             this.comboI1 = new Capa_Vista_ComboI.ComboI();
+            this.BtnImprimir = new System.Windows.Forms.Button();
             this.pnlIngresoDatos.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvCampeonato)).BeginInit();
             this.SuspendLayout();
@@ -304,12 +305,26 @@
             this.comboI1.Size = new System.Drawing.Size(472, 23);
             this.comboI1.TabIndex = 16;
             // 
+            // BtnImprimir
+            // 
+            this.BtnImprimir.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(232)))), ((int)(((byte)(241)))));
+            this.BtnImprimir.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnImprimir.ForeColor = System.Drawing.Color.Navy;
+            this.BtnImprimir.Location = new System.Drawing.Point(345, 303);
+            this.BtnImprimir.Name = "BtnImprimir";
+            this.BtnImprimir.Size = new System.Drawing.Size(75, 24);
+            this.BtnImprimir.TabIndex = 17;
+            this.BtnImprimir.Text = "Imprimir";
+            this.BtnImprimir.UseVisualStyleBackColor = false;
+            this.BtnImprimir.Click += new System.EventHandler(this.BtnImprimir_Click);
+            // 
             // FrmCampeonato
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(780, 465);
+            this.Controls.Add(this.BtnImprimir);
             this.Controls.Add(this.comboI1);
             this.Controls.Add(this.txtSearch);
             this.Controls.Add(this.btnBuscar);
@@ -359,5 +374,6 @@
         private System.Windows.Forms.Button btnBuscar;
         private System.Windows.Forms.TextBox txtSearch;
         private Capa_Vista_ComboI.ComboI comboI1;
+        private System.Windows.Forms.Button BtnImprimir;
     }
 }

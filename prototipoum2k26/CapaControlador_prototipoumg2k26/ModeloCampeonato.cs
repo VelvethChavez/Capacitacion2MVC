@@ -148,8 +148,7 @@ namespace CapaControlador_prototipoumg2k26
 
         public List<ModeloCampeonato> GetAll()
         {
-            var modeloDatosCampeonato =
-                RepositorioCampeonato.GetAll();
+            var modeloDatosCampeonato = RepositorioCampeonato.GetAll();
 
             ListaCampeonatos = new List<ModeloCampeonato>();
 
@@ -158,18 +157,14 @@ namespace CapaControlador_prototipoumg2k26
                 ListaCampeonatos.Add(
                     new ModeloCampeonato
                     {
-                        _IdCampeonato = item.IdCampeonato,
-                        _NombreCampeonato = item.NombreCampeonato,
-                        _FechaInicioCampeonato =
-                            item.FechaInicioCampeonato,
-                        _FechaFinCampeonato =
-                            item.FechaFinCampeonato,
-                        _IdDeporte_Campeonato =
-                            item.IdDeporte_Campeonato,
-                        _IdTipoCampeonato_Campeonato =
-                            item.IdTipoCampeonato_Campeonato,
-                        _IdEstado_Campeonato =
-                            item.IdEstado_Campeonato
+                        // Usar las propiedades públicas en lugar de los campos con guion bajo
+                        IdCampeonato = item.IdCampeonato,
+                        NombreCampeonato = item.NombreCampeonato,
+                        FechaInicioCampeonato = item.FechaInicioCampeonato,
+                        FechaFinCampeonato = item.FechaFinCampeonato,
+                        IdDeporte_Campeonato = item.IdDeporte_Campeonato,
+                        IdTipoCampeonato_Campeonato = item.IdTipoCampeonato_Campeonato,
+                        IdEstado_Campeonato = item.IdEstado_Campeonato
                     });
             }
 

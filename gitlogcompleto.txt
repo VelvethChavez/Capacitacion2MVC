@@ -1,0 +1,8 @@
+* 424d046 (HEAD -> Diseño_Combo_Inteligente, origin/Diseño_Combo_Inteligente) Agregando Combo Inteligente - Paso Final
+*   a1e41a4 (origin/main, origin/HEAD, main) Merge pull request #1 from VelvethChavez/Diseño_Capa_Vista_0901236269
+|\  
+| * 4f433f8 (origin/Diseño_Capa_Vista_0901236269) Subiendo Capa Vista Velveth
+|/  
+* 4179d7a (origin/Diseño_Capa_Controlador_0901236269) Agregando Capa Controlador Velveth Chavez
+* 0d28049 (origin/Diseño_Capa_Modelo_0901236269) Agregando Capa Modelo Velveth Chavez
+* bf2ba72 Inicio capacitacion
