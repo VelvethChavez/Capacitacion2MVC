@@ -335,5 +335,10 @@ namespace CapaVista_prototipoumg2k26.Formas
             campeonato.Show();
 
         }
+
+        private void BtnAyuda_Click(object sender, EventArgs e)
+        {
+            Help.ShowHelp(this, "C:/AyudaRisko/CapaRisko.chm","sistemapolideportivo.html");
+        }
     }
 }

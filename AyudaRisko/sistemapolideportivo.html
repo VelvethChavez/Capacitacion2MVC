@@ -1,0 +1,248 @@
+<!-- Header / Navegación -->
+<header class="bg-indigo-700 text-white shadow-md">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex flex-col sm:flex-row justify-between items-center">
+        <div class="flex items-center space-x-3 mb-3 sm:mb-0">
+            <i class="fa-solid fa-trophy text-3xl text-yellow-400"></i>
+            <h1 class="text-2xl font-bold tracking-wide">Sistema Polideportivo</h1>
+        </div>
+        <nav class="flex space-x-2 sm:space-x-4">
+            <button onclick="showTab('campeonatos')" id="btn-campeonatos" class="px-3 py-2 rounded bg-indigo-800 text-white font-medium transition hover:bg-indigo-600 text-sm sm:text-base">Campeonatos</button>
+            <button onclick="showTab('deportes')" id="btn-deportes" class="px-3 py-2 rounded hover:bg-indigo-600 transition font-medium text-sm sm:text-base">Deportes</button>
+            <button onclick="showTab('tipos')" id="btn-tipos" class="px-3 py-2 rounded hover:bg-indigo-600 transition font-medium text-sm sm:text-base">Tipos de Campeonato</button>
+        </nav>
+    </div>
+</header>
+
+<!-- Contenido Principal -->
+<main class="max-w-7xl mx-auto px-4 py-8 w-full flex-grow">
+
+    <!-- Sección Campeonatos -->
+    <section id="tab-campeonatos" class="space-y-6">
+        <div class="flex justify-between items-center">
+            <h2 class="text-2xl font-bold text-slate-700"><i class="fa-solid fa-medal mr-2 text-indigo-600"></i>Listado de Campeonatos</h2>
+            <span class="bg-indigo-100 text-indigo-800 text-xs font-semibold px-2.5 py-0.5 rounded">10 Registros</span>
+        </div>
+        <div class="bg-white shadow-md rounded-lg overflow-hidden border border-slate-200">
+            <div class="overflow-x-auto">
+                <table class="w-full text-left border-collapse">
+                    <thead class="bg-slate-50 text-slate-600 uppercase text-xs tracking-wider border-b border-slate-200">
+                        <tr>
+                            <th class="py-3 px-4">Id</th>
+                            <th class="py-3 px-4">Nombre de Campeonato</th>
+                            <th class="py-3 px-4">Fecha Inicio</th>
+                            <th class="py-3 px-4">Fecha Fin</th>
+                            <th class="py-3 px-4">Deporte</th>
+                            <th class="py-3 px-4">Tipo</th>
+                            <th class="py-3 px-4">Estado</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-slate-200 text-sm">
+                        <tr class="hover:bg-slate-50">
+                            <td class="py-3 px-4 font-medium">1</td>
+                            <td class="py-3 px-4 font-semibold text-indigo-700">Liga Nacional de Fútbol 2026</td>
+                            <td class="py-3 px-4">2026-09-01</td>
+                            <td class="py-3 px-4">2026-11-30</td>
+                            <td class="py-3 px-4">1 (Fútbol)</td>
+                            <td class="py-3 px-4">1 (Liga)</td>
+                            <td class="py-3 px-4"><span class="px-2 py-1 bg-green-100 text-green-800 rounded-full text-xs font-semibold">Activo (1)</span></td>
+                        </tr>
+                        <tr class="hover:bg-slate-50">
+                            <td class="py-3 px-4 font-medium">2</td>
+                            <td class="py-3 px-4 font-semibold text-indigo-700">Copa Metropolitana de Fútbol</td>
+                            <td class="py-3 px-4">2026-10-05</td>
+                            <td class="py-3 px-4">2026-10-25</td>
+                            <td class="py-3 px-4">1 (Fútbol)</td>
+                            <td class="py-3 px-4">3 (Copa)</td>
+                            <td class="py-3 px-4"><span class="px-2 py-1 bg-green-100 text-green-800 rounded-full text-xs font-semibold">Activo (1)</span></td>
+                        </tr>
+                        <tr class="hover:bg-slate-50">
+                            <td class="py-3 px-4 font-medium">3</td>
+                            <td class="py-3 px-4 font-semibold text-indigo-700">Liga Nacional de Baloncesto 2026</td>
+                            <td class="py-3 px-4">2026-09-05</td>
+                            <td class="py-3 px-4">2026-11-20</td>
+                            <td class="py-3 px-4">2 (Baloncesto)</td>
+                            <td class="py-3 px-4">1 (Liga)</td>
+                            <td class="py-3 px-4"><span class="px-2 py-1 bg-green-100 text-green-800 rounded-full text-xs font-semibold">Activo (1)</span></td>
+                        </tr>
+                        <tr class="hover:bg-slate-50">
+                            <td class="py-3 px-4 font-medium">4</td>
+                            <td class="py-3 px-4 font-semibold text-indigo-700">Torneo Universitario de Baloncesto</td>
+                            <td class="py-3 px-4">2026-10-01</td>
+                            <td class="py-3 px-4">2026-10-30</td>
+                            <td class="py-3 px-4">2 (Baloncesto)</td>
+                            <td class="py-3 px-4">2 (Torneo)</td>
+                            <td class="py-3 px-4"><span class="px-2 py-1 bg-green-100 text-green-800 rounded-full text-xs font-semibold">Activo (1)</span></td>
+                        </tr>
+                        <tr class="hover:bg-slate-50">
+                            <td class="py-3 px-4 font-medium">5</td>
+                            <td class="py-3 px-4 font-semibold text-indigo-700">Copa Nacional de Tenis Individual</td>
+                            <td class="py-3 px-4">2026-09-10</td>
+                            <td class="py-3 px-4">2026-09-25</td>
+                            <td class="py-3 px-4">3 (Tenis)</td>
+                            <td class="py-3 px-4">3 (Copa)</td>
+                            <td class="py-3 px-4"><span class="px-2 py-1 bg-green-100 text-green-800 rounded-full text-xs font-semibold">Activo (1)</span></td>
+                        </tr>
+                        <tr class="hover:bg-slate-50">
+                            <td class="py-3 px-4 font-medium">6</td>
+                            <td class="py-3 px-4 font-semibold text-indigo-700">Torneo Abierto de Tenis Individual</td>
+                            <td class="py-3 px-4">2026-10-05</td>
+                            <td class="py-3 px-4">2026-10-20</td>
+                            <td class="py-3 px-4">3 (Tenis)</td>
+                            <td class="py-3 px-4">2 (Torneo)</td>
+                            <td class="py-3 px-4"><span class="px-2 py-1 bg-green-100 text-green-800 rounded-full text-xs font-semibold">Activo (1)</span></td>
+                        </tr>
+                        <tr class="hover:bg-slate-50">
+                            <td class="py-3 px-4 font-medium">7</td>
+                            <td class="py-3 px-4 font-semibold text-indigo-700">Campeonato Nacional de Volleyball 2026</td>
+                            <td class="py-3 px-4">2026-09-15</td>
+                            <td class="py-3 px-4">2026-11-15</td>
+                            <td class="py-3 px-4">4 (Volleyball)</td>
+                            <td class="py-3 px-4">1 (Liga)</td>
+                            <td class="py-3 px-4"><span class="px-2 py-1 bg-green-100 text-green-800 rounded-full text-xs font-semibold">Activo (1)</span></td>
+                        </tr>
+                        <tr class="hover:bg-slate-50">
+                            <td class="py-3 px-4 font-medium">8</td>
+                            <td class="py-3 px-4 font-semibold text-indigo-700">Copa Metropolitana de Volleyball</td>
+                            <td class="py-3 px-4">2026-10-10</td>
+                            <td class="py-3 px-4">2026-11-05</td>
+                            <td class="py-3 px-4">4 (Volleyball)</td>
+                            <td class="py-3 px-4">3 (Copa)</td>
+                            <td class="py-3 px-4"><span class="px-2 py-1 bg-green-100 text-green-800 rounded-full text-xs font-semibold">Activo (1)</span></td>
+                        </tr>
+                        <tr class="hover:bg-slate-50">
+                            <td class="py-3 px-4 font-medium">12</td>
+                            <td class="py-3 px-4 font-semibold text-indigo-700">Copa San Francisco</td>
+                            <td class="py-3 px-4">2026-09-01</td>
+                            <td class="py-3 px-4">2026-11-28</td>
+                            <td class="py-3 px-4">1 (Fútbol)</td>
+                            <td class="py-3 px-4">3 (Copa)</td>
+                            <td class="py-3 px-4"><span class="px-2 py-1 bg-amber-100 text-amber-800 rounded-full text-xs font-semibold">Inactivo (2)</span></td>
+                        </tr>
+                        <tr class="hover:bg-slate-50">
+                            <td class="py-3 px-4 font-medium">13</td>
+                            <td class="py-3 px-4 font-semibold text-indigo-700">Liga Española</td>
+                            <td class="py-3 px-4">2026-09-27</td>
+                            <td class="py-3 px-4">2027-06-27</td>
+                            <td class="py-3 px-4">1 (Fútbol)</td>
+                            <td class="py-3 px-4">1 (Liga)</td>
+                            <td class="py-3 px-4"><span class="px-2 py-1 bg-green-100 text-green-800 rounded-full text-xs font-semibold">Activo (1)</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Deportes -->
+    <section id="tab-deportes" class="space-y-6 hidden">
+        <div class="flex justify-between items-center">
+            <h2 class="text-2xl font-bold text-slate-700"><i class="fa-solid fa-futbol mr-2 text-indigo-600"></i>Catálogo de Deportes</h2>
+            <span class="bg-indigo-100 text-indigo-800 text-xs font-semibold px-2.5 py-0.5 rounded">4 Registros</span>
+        </div>
+        <div class="bg-white shadow-md rounded-lg overflow-hidden border border-slate-200">
+            <div class="overflow-x-auto">
+                <table class="w-full text-left border-collapse">
+                    <thead class="bg-slate-50 text-slate-600 uppercase text-xs tracking-wider border-b border-slate-200">
+                        <tr>
+                            <th class="py-3 px-4">Id Deporte</th>
+                            <th class="py-3 px-4">Nombre Deporte</th>
+                            <th class="py-3 px-4">Descripción Deporte</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-slate-200 text-sm">
+                        <tr class="hover:bg-slate-50">
+                            <td class="py-3 px-4 font-medium">1</td>
+                            <td class="py-3 px-4 font-semibold text-indigo-700">Fútbol</td>
+                            <td class="py-3 px-4 text-slate-600">Deporte de equipo jugado entre dos equipos de once jugadores...</td>
+                        </tr>
+                        <tr class="hover:bg-slate-50">
+                            <td class="py-3 px-4 font-medium">2</td>
+                            <td class="py-3 px-4 font-semibold text-indigo-700">Baloncesto</td>
+                            <td class="py-3 px-4 text-slate-600">Deporte de equipo en el que se busca encestar el balón en el aro...</td>
+                        </tr>
+                        <tr class="hover:bg-slate-50">
+                            <td class="py-3 px-4 font-medium">3</td>
+                            <td class="py-3 px-4 font-semibold text-indigo-700">Tenis individual</td>
+                            <td class="py-3 px-4 text-slate-600">Deporte disputado entre dos jugadores de manera individual...</td>
+                        </tr>
+                        <tr class="hover:bg-slate-50">
+                            <td class="py-3 px-4 font-medium">4</td>
+                            <td class="py-3 px-4 font-semibold text-indigo-700">Volleyball</td>
+                            <td class="py-3 px-4 text-slate-600">Deporte de equipo en el que se busca pasar el balón por encima de la red...</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Tipos de Campeonato -->
+    <section id="tab-tipos" class="space-y-6 hidden">
+        <div class="flex justify-between items-center">
+            <h2 class="text-2xl font-bold text-slate-700"><i class="fa-solid fa-layer-group mr-2 text-indigo-600"></i>Tipos de Campeonato</h2>
+            <span class="bg-indigo-100 text-indigo-800 text-xs font-semibold px-2.5 py-0.5 rounded">4 Registros</span>
+        </div>
+        <div class="bg-white shadow-md rounded-lg overflow-hidden border border-slate-200">
+            <div class="overflow-x-auto">
+                <table class="w-full text-left border-collapse">
+                    <thead class="bg-slate-50 text-slate-600 uppercase text-xs tracking-wider border-b border-slate-200">
+                        <tr>
+                            <th class="py-3 px-4">Id Tipo Campeonato</th>
+                            <th class="py-3 px-4">Nombre Tipo Campeonato</th>
+                            <th class="py-3 px-4">Descripción Tipo Campeonato</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-slate-200 text-sm">
+                        <tr class="hover:bg-slate-50">
+                            <td class="py-3 px-4 font-medium">1</td>
+                            <td class="py-3 px-4 font-semibold text-indigo-700">Liga</td>
+                            <td class="py-3 px-4 text-slate-600">Campeonato en el que los participantes se enfrentan todos contra todos.</td>
+                        </tr>
+                        <tr class="hover:bg-slate-50">
+                            <td class="py-3 px-4 font-medium">2</td>
+                            <td class="py-3 px-4 font-semibold text-indigo-700">Torneo</td>
+                            <td class="py-3 px-4 text-slate-600">Competencia deportiva realizada mediante diferentes fases o eliminatorias.</td>
+                        </tr>
+                        <tr class="hover:bg-slate-50">
+                            <td class="py-3 px-4 font-medium">3</td>
+                            <td class="py-3 px-4 font-semibold text-indigo-700">Copa</td>
+                            <td class="py-3 px-4 text-slate-600">Competencia deportiva que se disputa mediante eliminación directa.</td>
+                        </tr>
+                        <tr class="hover:bg-slate-50">
+                            <td class="py-3 px-4 font-medium">4</td>
+                            <td class="py-3 px-4 font-semibold text-indigo-700">Amistoso</td>
+                            <td class="py-3 px-4 text-slate-600">Competencia o encuentro deportivo de carácter preparatorio o recreativo.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<!-- Footer -->
+<footer class="bg-white border-t border-slate-200 mt-12 py-6 text-center text-sm text-slate-500">
+    <p>© 2026 Sistema Polideportivo. Todos los derechos reservados.</p>
+</footer>
+
+<!-- Script para navegación entre pestañas -->
+<script>
+    function showTab(tabName) {
+        // Ocultar todas las secciones
+        document.getElementById('tab-campeonatos').classList.add('hidden');
+        document.getElementById('tab-deportes').classList.add('hidden');
+        document.getElementById('tab-tipos').classList.add('hidden');
+
+        // Quitar estilos activos de los botones
+        document.getElementById('btn-campeonatos').classList.remove('bg-indigo-800');
+        document.getElementById('btn-deportes').classList.remove('bg-indigo-800');
+        document.getElementById('btn-tipos').classList.remove('bg-indigo-800');
+
+        // Mostrar la sección seleccionada y activar su botón
+        document.getElementById('tab-' + tabName).classList.remove('hidden');
+        document.getElementById('btn-' + tabName).classList.add('bg-indigo-800');
+    }
+</script>
+
+

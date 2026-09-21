@@ -53,6 +53,7 @@
             this.txtSearch = new System.Windows.Forms.TextBox();
             this.comboI1 = new Capa_Vista_ComboI.ComboI();
             this.BtnImprimir = new System.Windows.Forms.Button();
+            this.BtnAyuda = new System.Windows.Forms.Button();
             this.pnlIngresoDatos.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvCampeonato)).BeginInit();
             this.SuspendLayout();
@@ -318,12 +319,24 @@
             this.BtnImprimir.UseVisualStyleBackColor = false;
             this.BtnImprimir.Click += new System.EventHandler(this.BtnImprimir_Click);
             // 
+            // BtnAyuda
+            // 
+            this.BtnAyuda.BackColor = System.Drawing.Color.Gold;
+            this.BtnAyuda.Location = new System.Drawing.Point(445, 303);
+            this.BtnAyuda.Name = "BtnAyuda";
+            this.BtnAyuda.Size = new System.Drawing.Size(75, 23);
+            this.BtnAyuda.TabIndex = 18;
+            this.BtnAyuda.Text = "Ayuda";
+            this.BtnAyuda.UseVisualStyleBackColor = false;
+            this.BtnAyuda.Click += new System.EventHandler(this.BtnAyuda_Click);
+            // 
             // FrmCampeonato
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(780, 465);
+            this.Controls.Add(this.BtnAyuda);
             this.Controls.Add(this.BtnImprimir);
             this.Controls.Add(this.comboI1);
             this.Controls.Add(this.txtSearch);
@@ -375,5 +388,6 @@
         private System.Windows.Forms.TextBox txtSearch;
         private Capa_Vista_ComboI.ComboI comboI1;
         private System.Windows.Forms.Button BtnImprimir;
+        private System.Windows.Forms.Button BtnAyuda;
     }
 }
