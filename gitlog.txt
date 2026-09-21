@@ -1,0 +1,38 @@
+commit 424d046a3884335f0a62460e41a21cf4db0125aa
+Author: VelvethChavez <saraimejia1605@gmail.com>
+Date:   Fri Sep 11 23:17:06 2026 -0600
+
+    Agregando Combo Inteligente - Paso Final
+
+commit a1e41a4c1236e7590b4dfd57c31e411a5cdcf7c6
+Merge: 4179d7a 4f433f8
+Author: Velveth Chavez <vchavezm4@miumg.edu.gt>
+Date:   Fri Sep 11 21:19:59 2026 -0600
+
+    Merge pull request #1 from VelvethChavez/Diseño_Capa_Vista_0901236269
+    
+    Subiendo Capa Vista Velveth
+
+commit 4f433f8a2b1349c5cb92b1ba4d88d862504177de
+Author: VelvethChavez <saraimejia1605@gmail.com>
+Date:   Fri Sep 11 21:18:39 2026 -0600
+
+    Subiendo Capa Vista Velveth
+
+commit 4179d7aa6cd691fb30fdef70d579d16e72a193d0
+Author: VelvethChavez <saraimejia1605@gmail.com>
+Date:   Thu Sep 10 00:16:58 2026 -0600
+
+    Agregando Capa Controlador Velveth Chavez
+
+commit 0d280497350ec65a3cb179b1581f5112581605b4
+Author: VelvethChavez <saraimejia1605@gmail.com>
+Date:   Wed Sep 9 17:27:48 2026 -0600
+
+    Agregando Capa Modelo Velveth Chavez
+
+commit bf2ba72d9d6abe0cc91116ac0926b5415fcfcbeb
+Author: VelvethChavez <saraimejia1605@gmail.com>
+Date:   Wed Sep 9 16:21:19 2026 -0600
+
+    Inicio capacitacion
